@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-#import "UIViewController+CorrectNib.h"
+#import "UIViewController+Storyboard.h"
 
 
 @interface RootViewController ()

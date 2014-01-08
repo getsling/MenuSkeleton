@@ -20,7 +20,7 @@
 		0AB8C8B4187D7F2400117769 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8B3187D7F2400117769 /* HomeViewController.storyboard */; };
 		0AB8C8B6187D836200117769 /* OtherViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8B5187D836200117769 /* OtherViewController.storyboard */; };
 		0AB8C8B9187D839500117769 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8B8187D839500117769 /* OtherViewController.m */; };
-		0AB8C8C0187D861D00117769 /* UIViewController+CorrectNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8BF187D861D00117769 /* UIViewController+CorrectNib.m */; };
+		0AB8C8C0187D861D00117769 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8BF187D861D00117769 /* UIViewController+Storyboard.m */; };
 		0AB8C8C3187D869D00117769 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8C2187D869D00117769 /* HomeViewController.m */; };
 		0AB8C8C5187D98A700117769 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8C4187D98A700117769 /* menu.json */; };
 		A26642F3CE6C4D208F5D56A3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D935C3EA67D43CAAA9E9E67 /* libPods.a */; };
@@ -49,8 +49,8 @@
 		0AB8C8B5187D836200117769 /* OtherViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OtherViewController.storyboard; sourceTree = "<group>"; };
 		0AB8C8B7187D839500117769 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		0AB8C8B8187D839500117769 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
-		0AB8C8BE187D861D00117769 /* UIViewController+CorrectNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CorrectNib.h"; sourceTree = "<group>"; };
-		0AB8C8BF187D861D00117769 /* UIViewController+CorrectNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CorrectNib.m"; sourceTree = "<group>"; };
+		0AB8C8BE187D861D00117769 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
+		0AB8C8BF187D861D00117769 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
 		0AB8C8C1187D869D00117769 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		0AB8C8C2187D869D00117769 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		0AB8C8C4187D98A700117769 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 		0AB8C8BA187D85FC00117769 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				0AB8C8BE187D861D00117769 /* UIViewController+CorrectNib.h */,
-				0AB8C8BF187D861D00117769 /* UIViewController+CorrectNib.m */,
+				0AB8C8BE187D861D00117769 /* UIViewController+Storyboard.h */,
+				0AB8C8BF187D861D00117769 /* UIViewController+Storyboard.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 				0AB8C8A8187D74A500117769 /* main.m in Sources */,
 				0AB8C8B2187D7CB300117769 /* ContentNavigationViewController.m in Sources */,
 				0AB8C8AC187D75F500117769 /* RootViewController.m in Sources */,
-				0AB8C8C0187D861D00117769 /* UIViewController+CorrectNib.m in Sources */,
+				0AB8C8C0187D861D00117769 /* UIViewController+Storyboard.m in Sources */,
 				0AB8C8B9187D839500117769 /* OtherViewController.m in Sources */,
 				0AB8C8A4187D74A500117769 /* AppDelegate.m in Sources */,
 				0AB8C8AF187D7B8A00117769 /* MenuViewController.m in Sources */,

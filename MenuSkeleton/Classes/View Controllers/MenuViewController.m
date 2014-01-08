@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Gangverk. All rights reserved.
 //
 
-#import <REFrostedViewController/REFrostedViewController.h>
 #import "MenuViewController.h"
 #import "RootViewController.h"
 

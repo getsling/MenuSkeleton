@@ -1,14 +1,14 @@
 //
-//  UIViewController+CorrectNib.h
-//  ios-radiocom-universal
+//  UIViewController+Storyboard.h
+//  MenuExample
 //
 //  Created by Kevin Renskers on 13-12-12.
-//  Copyright (c) 2012 CBS Local. All rights reserved.
+//  Copyright (c) 2014 Gangverk. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (CorrectNib)
+@interface UIViewController (Storyboard)
 
 /**
  * Usage: [HomeViewController initialControllerFromStoryboard]

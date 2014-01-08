@@ -1,15 +1,15 @@
 //
-//  UIViewController+CorrectNib.m
-//  ios-radiocom-universal
+//  UIViewController+Storyboard.m
+//  MenuExample
 //
 //  Created by Kevin Renskers on 13-12-12.
-//  Copyright (c) 2012 CBS Local. All rights reserved.
+//  Copyright (c) 2014 Gangverk. All rights reserved.
 //
 
-#import "UIViewController+CorrectNib.h"
+#import "UIViewController+Storyboard.h"
 
 
-@implementation UIViewController (CorrectNib)
+@implementation UIViewController (Storyboard)
 
 + (id)initialControllerFromStoryboard {
     NSString *storyboardName = NSStringFromClass([self class]);
