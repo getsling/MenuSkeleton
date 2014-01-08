@@ -32,14 +32,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is another page in the menu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJf-JB-dah">
-                                <rect key="frame" x="35" y="91" width="251" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is another page in the menu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJf-JB-dah">
+                                <rect key="frame" x="35" y="72" width="251" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTp-QB-fag">
-                                <rect key="frame" x="136" y="269" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTp-QB-fag">
+                                <rect key="frame" x="145" y="101" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sub">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -50,6 +50,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JJf-JB-dah" firstAttribute="top" secondItem="1FF-TZ-gWE" secondAttribute="bottom" constant="20" symbolic="YES" id="8A1-ns-BLG"/>
+                            <constraint firstAttribute="centerX" secondItem="oTp-QB-fag" secondAttribute="centerX" id="QfM-E7-Wte"/>
+                            <constraint firstItem="oTp-QB-fag" firstAttribute="top" secondItem="JJf-JB-dah" secondAttribute="bottom" constant="8" symbolic="YES" id="Xve-jg-ybv"/>
+                            <constraint firstAttribute="centerX" secondItem="JJf-JB-dah" secondAttribute="centerX" id="raj-0x-bUM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="Rk7-gM-J9m">
                         <barButtonItem key="leftBarButtonItem" title="Menu!" id="vBx-DK-SH1">
@@ -75,14 +81,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a sub page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="482-ds-rzT">
-                                <rect key="frame" x="90" y="91" width="140" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a sub page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="482-ds-rzT">
+                                <rect key="frame" x="90" y="72" width="140" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="482-ds-rzT" firstAttribute="top" secondItem="Rsh-e8-fm9" secondAttribute="bottom" constant="20" symbolic="YES" id="bP4-TJ-dJo"/>
+                            <constraint firstAttribute="centerX" secondItem="482-ds-rzT" secondAttribute="centerX" id="oQA-Zw-t7u"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sub" id="YRJ-qd-hd5"/>
                 </viewController>

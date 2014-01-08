@@ -32,15 +32,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the home page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFf-b0-dmc">
-                                <rect key="frame" x="76" y="86" width="169" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the home page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFf-b0-dmc">
+                                <rect key="frame" x="76" y="72" width="169" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Balloon" translatesAutoresizingMaskIntoConstraints="NO" id="mId-r6-ntA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mId-r6-ntA" firstAttribute="top" secondItem="4CN-RQ-G34" secondAttribute="top" id="J2D-jH-e8U"/>
+                            <constraint firstItem="mId-r6-ntA" firstAttribute="leading" secondItem="4CN-RQ-G34" secondAttribute="leading" id="S9y-S9-tE1"/>
+                            <constraint firstItem="QKx-cO-Lgl" firstAttribute="top" secondItem="mId-r6-ntA" secondAttribute="bottom" id="hrS-kb-97b"/>
+                            <constraint firstAttribute="centerX" secondItem="aFf-b0-dmc" secondAttribute="centerX" id="kLY-Le-GLv"/>
+                            <constraint firstItem="aFf-b0-dmc" firstAttribute="top" secondItem="tSj-e5-Gg4" secondAttribute="bottom" constant="20" symbolic="YES" id="oNH-US-0ds"/>
+                            <constraint firstAttribute="trailing" secondItem="mId-r6-ntA" secondAttribute="trailing" id="yJg-Y3-sYG"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="1il-tX-xzx"/>
                 </viewController>
@@ -49,6 +61,9 @@
             <point key="canvasLocation" x="713" y="149"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Balloon" width="640" height="1136"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

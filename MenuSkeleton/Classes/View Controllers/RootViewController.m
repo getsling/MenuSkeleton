@@ -34,6 +34,7 @@
 
 - (void)awakeFromNib {
     self.persistentControllers = [NSMutableDictionary dictionary];
+    self.menuViewSize = CGSizeMake(300, 0);
     self.menuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MenuViewController"];
     [self switchToControllerAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
 }

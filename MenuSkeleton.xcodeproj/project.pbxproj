@@ -387,6 +387,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MenuSkeleton/Supporting Files/MenuSkeleton-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = MenuSkeleton;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,6 +403,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MenuSkeleton/Supporting Files/MenuSkeleton-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = MenuSkeleton;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
