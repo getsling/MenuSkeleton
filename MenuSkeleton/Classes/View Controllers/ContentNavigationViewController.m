@@ -17,7 +17,7 @@
 }
 
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    if ([navigationController.viewControllers count] == 1) {
+    if ([navigationController.viewControllers count] == 1 && !viewController.navigationItem.leftBarButtonItem) {
         if (navigationController.presentingViewController) {
             // Modal? Then show a close button.
             UIBarButtonItem *menuButton = [[UIBarButtonItem alloc] initWithTitle:@"Close" style:UIBarButtonItemStyleBordered target:self action:@selector(closeModal)];
