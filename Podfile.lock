@@ -1,10 +1,13 @@
 PODS:
-  - REFrostedViewController (2.4)
+  - Google-Mobile-Ads-SDK (6.7.0)
+  - REFrostedViewController (2.4.1)
 
 DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
   - REFrostedViewController
 
 SPEC CHECKSUMS:
-  REFrostedViewController: 1b56c643d4f3377a8d6b284d7266371ef90948f3
+  Google-Mobile-Ads-SDK: d82c5e060532258a7517e59426632c2a41dd8cf2
+  REFrostedViewController: 56f6b2dc7ae02968be251fcd379bc283696f310d
 
 COCOAPODS: 0.29.0

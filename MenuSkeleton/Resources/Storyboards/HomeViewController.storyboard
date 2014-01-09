@@ -20,10 +20,10 @@
             </objects>
             <point key="canvasLocation" x="167" y="149"/>
         </scene>
-        <!--Home View Controller - Home-->
+        <!--View Controller - Home-->
         <scene sceneID="zbL-4B-kbA">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KY3-RO-gIN" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KY3-RO-gIN" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tSj-e5-Gg4"/>
                         <viewControllerLayoutGuide type="bottom" id="QKx-cO-Lgl"/>

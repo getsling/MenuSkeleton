@@ -20,10 +20,10 @@
             </objects>
             <point key="canvasLocation" x="134" y="146"/>
         </scene>
-        <!--Other View Controller - Title-->
+        <!--View Controller - Title-->
         <scene sceneID="ERN-qE-F0e">
             <objects>
-                <viewController storyboardIdentifier="OtherViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NXX-xd-HI3" customClass="OtherViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OtherViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NXX-xd-HI3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1FF-TZ-gWE"/>
                         <viewControllerLayoutGuide type="bottom" id="U4Q-dY-uyN"/>
@@ -57,13 +57,7 @@
                             <constraint firstAttribute="centerX" secondItem="JJf-JB-dah" secondAttribute="centerX" id="raj-0x-bUM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="Rk7-gM-J9m">
-                        <barButtonItem key="leftBarButtonItem" title="Menu!" id="vBx-DK-SH1">
-                            <connections>
-                                <action selector="openMenu:" destination="NXX-xd-HI3" id="4UO-K0-shO"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Title" id="Rk7-gM-J9m"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A5t-RE-HsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

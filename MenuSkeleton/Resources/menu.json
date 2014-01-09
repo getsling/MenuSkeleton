@@ -7,30 +7,22 @@
                   "storyboard": "HomeViewController"
             },
             {
-                  "title": "Other 1",
-                  "storyboard": "OtherViewController",
-                  "persistent": true
+                  "title": "Other",
+                  "storyboard": "OtherViewController"
             },
             {
-                  "title": "Other 2",
+                  "title": "Modal",
                   "storyboard": "OtherViewController",
                   "modal": true
             },
             {
-                  "title": "Other 3",
-                  "storyboard": "OtherViewController"
+                  "title": "Persistent",
+                  "storyboard": "OtherViewController",
+                  "persistent": true
             },
             {
-                  "title": "Other 4",
-                  "storyboard": "OtherViewController"
-            },
-            {
-                  "title": "Other 5",
-                  "storyboard": "OtherViewController"
-            },
-            {
-                  "title": "Other 6",
-                  "storyboard": "OtherViewController"
+                  "title": "Interstitial",
+                  "storyboard": "InterstitialViewController"
             }
         ]
     }
