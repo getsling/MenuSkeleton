@@ -1,0 +1,30 @@
+[
+    {
+        "section": "All",
+        "items": [
+            {
+                  "title": "Home",
+                  "storyboard": "HomeViewController"
+            },
+            {
+                  "title": "Other",
+                  "storyboard": "OtherViewController"
+            },
+            {
+                  "title": "Modal",
+                  "storyboard": "OtherViewController",
+                  "modal": true,
+                  "modal-size": [400, 400]
+            },
+            {
+                  "title": "Persistent",
+                  "storyboard": "OtherViewController",
+                  "persistent": true
+            },
+            {
+                  "title": "Interstitial",
+                  "storyboard": "InterstitialViewController"
+            }
+        ]
+    }
+]

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A15447C188D465E006802CF /* menu-iPad.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A15447B188D465E006802CF /* menu-iPad.json */; };
 		0AB8C861187D73F000117769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB8C860187D73F000117769 /* Foundation.framework */; };
 		0AB8C863187D73F000117769 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB8C862187D73F000117769 /* CoreGraphics.framework */; };
 		0AB8C865187D73F000117769 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB8C864187D73F000117769 /* UIKit.framework */; };
@@ -20,13 +21,14 @@
 		0AB8C8B4187D7F2400117769 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8B3187D7F2400117769 /* HomeViewController.storyboard */; };
 		0AB8C8B6187D836200117769 /* OtherViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8B5187D836200117769 /* OtherViewController.storyboard */; };
 		0AB8C8C0187D861D00117769 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8BF187D861D00117769 /* UIViewController+Storyboard.m */; };
-		0AB8C8C5187D98A700117769 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8C4187D98A700117769 /* menu.json */; };
+		0AB8C8C5187D98A700117769 /* menu-iPhone.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8C4187D98A700117769 /* menu-iPhone.json */; };
 		0AB8C8C7187EAE8A00117769 /* InterstitialViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8C6187EAE8A00117769 /* InterstitialViewController.storyboard */; };
 		0AB8C8CA187EAEFB00117769 /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8C9187EAEFB00117769 /* InterstitialViewController.m */; };
 		A26642F3CE6C4D208F5D56A3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D935C3EA67D43CAAA9E9E67 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A15447B188D465E006802CF /* menu-iPad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "menu-iPad.json"; sourceTree = "<group>"; };
 		0AB8C85D187D73F000117769 /* MenuSkeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuSkeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB8C860187D73F000117769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AB8C862187D73F000117769 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,7 +51,7 @@
 		0AB8C8B5187D836200117769 /* OtherViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OtherViewController.storyboard; sourceTree = "<group>"; };
 		0AB8C8BE187D861D00117769 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
 		0AB8C8BF187D861D00117769 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
-		0AB8C8C4187D98A700117769 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		0AB8C8C4187D98A700117769 /* menu-iPhone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "menu-iPhone.json"; sourceTree = "<group>"; };
 		0AB8C8C6187EAE8A00117769 /* InterstitialViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InterstitialViewController.storyboard; sourceTree = "<group>"; };
 		0AB8C8C8187EAEFB00117769 /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
 		0AB8C8C9187EAEFB00117769 /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
@@ -151,7 +153,8 @@
 			children = (
 				0AB8C89D187D74A500117769 /* Images.xcassets */,
 				0AB8C89E187D74A500117769 /* Storyboards */,
-				0AB8C8C4187D98A700117769 /* menu.json */,
+				0AB8C8C4187D98A700117769 /* menu-iPhone.json */,
+				0A15447B188D465E006802CF /* menu-iPad.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -240,11 +243,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AB8C8C5187D98A700117769 /* menu.json in Resources */,
+				0AB8C8C5187D98A700117769 /* menu-iPhone.json in Resources */,
 				0AB8C8C7187EAE8A00117769 /* InterstitialViewController.storyboard in Resources */,
 				0AB8C8B4187D7F2400117769 /* HomeViewController.storyboard in Resources */,
 				0AB8C8A6187D74A500117769 /* Images.xcassets in Resources */,
 				0AB8C8B6187D836200117769 /* OtherViewController.storyboard in Resources */,
+				0A15447C188D465E006802CF /* menu-iPad.json in Resources */,
 				0AB8C8A7187D74A500117769 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
