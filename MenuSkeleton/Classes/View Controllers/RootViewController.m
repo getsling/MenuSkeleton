@@ -19,6 +19,8 @@
 
 @implementation RootViewController
 
+#pragma mark - Setters and getters
+
 - (NSArray *)menu {
     if (!_menu) {
         NSString *menuname = IsPhone ? @"menu-iPhone" : @"menu-iPad";
@@ -29,15 +31,19 @@
     return _menu;
 }
 
-- (NSDictionary *)menuItemForIndexPath:(NSIndexPath *)indexPath {
-    return self.menu[indexPath.section][@"items"][indexPath.row];
-}
+#pragma mark - View Lifecycle
 
 - (void)awakeFromNib {
     self.persistentControllers = [NSMutableDictionary dictionary];
     self.menuViewSize = CGSizeMake(280, 0);
     self.menuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MenuViewController"];
     [self switchToControllerAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+}
+
+#pragma mark - Private methods
+
+- (NSDictionary *)menuItemForIndexPath:(NSIndexPath *)indexPath {
+    return self.menu[indexPath.section][@"items"][indexPath.row];
 }
 
 - (UIViewController *)controllerFromMenuItem:(NSDictionary *)menuItem {
