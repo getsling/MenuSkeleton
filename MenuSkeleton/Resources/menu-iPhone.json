@@ -4,8 +4,7 @@
         "items": [
             {
                   "title": "Home",
-                  "storyboard": "HomeViewController",
-                  "storyboard-identifier": "HomeViewController"
+                  "storyboard": "HomeViewController"
             },
             {
                   "title": "Other",
