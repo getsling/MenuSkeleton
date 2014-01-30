@@ -1,5 +1,5 @@
 //
-//  ContentNavigationViewController.m
+//  RotationNavigationController.m
 //  MenuExample
 //
 //  Created by Kevin Renskers on 08-01-14.
@@ -7,9 +7,10 @@
 //
 
 #import <REFrostedViewController/REFrostedViewController.h>
-#import "ContentNavigationViewController.h"
+#import "RotationNavigationController.h"
 
-@implementation ContentNavigationViewController
+
+@implementation RotationNavigationController
 
 - (void)viewDidLoad {
     self.delegate = self;
@@ -36,6 +37,18 @@
 
 - (void)closeModal {
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (BOOL)disablesAutomaticKeyboardDismissal {
+    return NO;
+}
+
+- (BOOL)shouldAutorotate {
+    return [self.topViewController shouldAutorotate];
+}
+
+- (NSUInteger)supportedInterfaceOrientations {
+    return [self.topViewController supportedInterfaceOrientations];
 }
 
 @end

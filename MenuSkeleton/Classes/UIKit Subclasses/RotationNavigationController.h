@@ -1,5 +1,5 @@
 //
-//  ContentNavigationViewController.h
+//  RotationNavigationController.h
 //  MenuExample
 //
 //  Created by Kevin Renskers on 08-01-14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContentNavigationViewController : UINavigationController <UINavigationControllerDelegate>
+
+@interface RotationNavigationController : UINavigationController <UINavigationControllerDelegate>
 
 @end

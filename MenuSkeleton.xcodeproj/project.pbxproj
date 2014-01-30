@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A15447C188D465E006802CF /* menu-iPad.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A15447B188D465E006802CF /* menu-iPad.json */; };
+		0A229A9B189A980A006904CA /* RotationNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A229A9A189A980A006904CA /* RotationNavigationController.m */; };
 		0AB8C861187D73F000117769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB8C860187D73F000117769 /* Foundation.framework */; };
 		0AB8C863187D73F000117769 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB8C862187D73F000117769 /* CoreGraphics.framework */; };
 		0AB8C865187D73F000117769 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB8C864187D73F000117769 /* UIKit.framework */; };
@@ -17,7 +18,6 @@
 		0AB8C8A8187D74A500117769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8A1187D74A500117769 /* main.m */; };
 		0AB8C8AC187D75F500117769 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8AB187D75F500117769 /* RootViewController.m */; };
 		0AB8C8AF187D7B8A00117769 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8AE187D7B8A00117769 /* MenuViewController.m */; };
-		0AB8C8B2187D7CB300117769 /* ContentNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8B1187D7CB300117769 /* ContentNavigationViewController.m */; };
 		0AB8C8B4187D7F2400117769 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8B3187D7F2400117769 /* HomeViewController.storyboard */; };
 		0AB8C8B6187D836200117769 /* OtherViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8C8B5187D836200117769 /* OtherViewController.storyboard */; };
 		0AB8C8C0187D861D00117769 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8C8BF187D861D00117769 /* UIViewController+Storyboard.m */; };
@@ -29,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0A15447B188D465E006802CF /* menu-iPad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "menu-iPad.json"; sourceTree = "<group>"; };
+		0A229A99189A980A006904CA /* RotationNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationNavigationController.h; sourceTree = "<group>"; };
+		0A229A9A189A980A006904CA /* RotationNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationNavigationController.m; sourceTree = "<group>"; };
 		0AB8C85D187D73F000117769 /* MenuSkeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuSkeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB8C860187D73F000117769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AB8C862187D73F000117769 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +47,6 @@
 		0AB8C8AB187D75F500117769 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		0AB8C8AD187D7B8A00117769 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		0AB8C8AE187D7B8A00117769 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		0AB8C8B0187D7CB300117769 /* ContentNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentNavigationViewController.h; sourceTree = "<group>"; };
-		0AB8C8B1187D7CB300117769 /* ContentNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentNavigationViewController.m; sourceTree = "<group>"; };
 		0AB8C8B3187D7F2400117769 /* HomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 		0AB8C8B5187D836200117769 /* OtherViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OtherViewController.storyboard; sourceTree = "<group>"; };
 		0AB8C8BE187D861D00117769 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
@@ -74,6 +74,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A229A98189A980A006904CA /* UIKit Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				0A229A99189A980A006904CA /* RotationNavigationController.h */,
+				0A229A9A189A980A006904CA /* RotationNavigationController.m */,
+			);
+			path = "UIKit Subclasses";
+			sourceTree = "<group>";
+		};
 		0AB8C854187D73F000117769 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +128,7 @@
 			children = (
 				0AB8C896187D74A500117769 /* AppDelegate */,
 				0AB8C8BA187D85FC00117769 /* Categories */,
+				0A229A98189A980A006904CA /* UIKit Subclasses */,
 				0AB8C899187D74A500117769 /* View Controllers */,
 			);
 			path = Classes;
@@ -140,8 +150,6 @@
 				0AB8C8AB187D75F500117769 /* RootViewController.m */,
 				0AB8C8AD187D7B8A00117769 /* MenuViewController.h */,
 				0AB8C8AE187D7B8A00117769 /* MenuViewController.m */,
-				0AB8C8B0187D7CB300117769 /* ContentNavigationViewController.h */,
-				0AB8C8B1187D7CB300117769 /* ContentNavigationViewController.m */,
 				0AB8C8C8187EAEFB00117769 /* InterstitialViewController.h */,
 				0AB8C8C9187EAEFB00117769 /* InterstitialViewController.m */,
 			);
@@ -294,10 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB8C8A8187D74A500117769 /* main.m in Sources */,
-				0AB8C8B2187D7CB300117769 /* ContentNavigationViewController.m in Sources */,
 				0AB8C8AC187D75F500117769 /* RootViewController.m in Sources */,
 				0AB8C8C0187D861D00117769 /* UIViewController+Storyboard.m in Sources */,
 				0AB8C8CA187EAEFB00117769 /* InterstitialViewController.m in Sources */,
+				0A229A9B189A980A006904CA /* RotationNavigationController.m in Sources */,
 				0AB8C8A4187D74A500117769 /* AppDelegate.m in Sources */,
 				0AB8C8AF187D7B8A00117769 /* MenuViewController.m in Sources */,
 			);

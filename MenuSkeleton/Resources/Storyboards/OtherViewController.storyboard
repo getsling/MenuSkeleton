@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Content Navigation View Controller-->
+        <!--Rotation Navigation Controller-->
         <scene sceneID="cVy-gC-i1z">
             <objects>
-                <navigationController storyboardIdentifier="ContentNavigationViewController" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mH5-Qi-Wtx" customClass="ContentNavigationViewController" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="RotationNavigationController" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mH5-Qi-Wtx" customClass="RotationNavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bFb-3M-3Sn">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
