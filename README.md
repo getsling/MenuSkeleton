@@ -1,4 +1,6 @@
 # MenuSkeleton
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 iOS slide over menu skeleton.
 
 ## What's this?
